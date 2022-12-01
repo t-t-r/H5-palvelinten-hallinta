@@ -20,3 +20,11 @@ c:\Users\ttrbe\tmp\srv\salt>dir
                1 File(s)              0 bytes
                3 Dir(s)  230 033 870 848 bytes free
 ```
+Kyllä, kaikki ok. Seuraavaksi init.sls sisältö
+```
+c:\Users\ttrbe\tmp\srv\salt>notepad init.sls
+c:\Users\ttrbe\tmp\srv\salt>type init.sls
+
+C:\Users\ttrbe\tmp\srv\salt\hello\suolaikkuna.txt:
+  file.managed:
+```
