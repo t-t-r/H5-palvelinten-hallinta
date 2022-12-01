@@ -28,3 +28,39 @@ c:\Users\ttrbe\tmp\srv\salt>type init.sls
 C:\Users\ttrbe\tmp\srv\salt\hello\suolaikkuna.txt:
   file.managed:
 ```
+***en saanut salttia asennettua -> opettelen myöhemmin***
+
+## B - Tekniset tiedot tekstitiedostoon
+
+Ensiksi tein juureen temppi-hakemiston, menin hakemistoon ja otin listauksen
+```
+c:\>mkdir temppi
+
+c:\>cd temppi
+
+c:\temppi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FE35-AB7E
+
+ Directory of c:\temppi
+
+01.12.2022  07.31    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  230 012 628 992 bytes free
+```
+Koneen tiedot sain systeminfo-komennolla '>' ohjaa tulosteen tiedostoon
+```
+c:\temppi>systeminfo > systeemi.txt
+
+c:\temppi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FE35-AB7E
+
+ Directory of c:\temppi
+
+01.12.2022  07.32    <DIR>          .
+01.12.2022  07.32             3 178 systeemi.txt
+               1 File(s)          3 178 bytes
+               1 Dir(s)  230 011 510 784 bytes free
+
+```
