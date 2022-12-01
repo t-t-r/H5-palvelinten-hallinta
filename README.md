@@ -49,6 +49,7 @@ c:\temppi>dir
                1 Dir(s)  230 012 628 992 bytes free
 ```
 Koneen tiedot sain systeminfo-komennolla '>' ohjaa tulosteen tiedostoon
+'type systeemi.txt' tulostaa tiedoston sisällön näytölle
 ```
 c:\temppi>systeminfo > systeemi.txt
 
@@ -64,3 +65,4 @@ c:\temppi>dir
                1 Dir(s)  230 011 510 784 bytes free
 
 ```
+![Näyttökuva 2022-12-01 073850](https://user-images.githubusercontent.com/30270781/204974668-b8893261-0da8-4a71-bb86-efa8e8153294.jpg)
